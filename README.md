@@ -1,4 +1,4 @@
-# iview-form
+# iview-form-dy
 
 > 让 iview 和 element-ui 的 form 使用起来更加简单。
 
@@ -10,7 +10,7 @@
 ### npm（推荐方式）
 
 ```bash
-$ npm install iview-form
+$ npm install iview-form-dy
 ```
 
 ### script

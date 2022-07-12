@@ -485,7 +485,8 @@ export default {
           return h(getPrefix('option', this.lib), {
             props: {
               label: option.text,
-              value: option.value
+              value: option.value,
+              disabled: option.disabled
             }
           }, [
             typeof item.renderOption === 'function'
@@ -522,7 +523,8 @@ export default {
           return h(getPrefix('checkbox', this.lib), {
             props: {
               border: item.border,
-              label: option.value
+              label: option.value,
+              disabled: option.disabled
             }
           }, option.text)
         })
@@ -600,7 +602,8 @@ export default {
           return h(getPrefix('radio', this.lib), {
             props: {
               border: item.border,
-              label: option.value
+              label: option.value,
+              disabled: option.disabled
             }
           }, option.text)
         })
